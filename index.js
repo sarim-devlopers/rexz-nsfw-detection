@@ -3,7 +3,7 @@ const fs = require("fs");
 const FormData = require("form-data");
 
 // Define API endpoint and timeout configuration
-const API_URL = " http://13.201.42.191.5000/classify"; // Example Flask backend URL
+const API_URL = " http://13.201.42.191:5000/classify"; // Example Flask backend URL
 const TIMEOUT = 10000; // 10 seconds timeout
 
 /**
@@ -34,4 +34,5 @@ async function classifyImage(imagePath) {
     );
   }
 }
+
 module.exports = classifyImage;
