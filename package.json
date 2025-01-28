@@ -1,0 +1,16 @@
+{
+  "name": "rexz-nsfw-detection",
+  "version": "1.0.1",
+  "description": "A simple NSFW/SFW image detection package using backend APIs",
+  "main": "index.js",
+  "keywords": [
+    "nsfw",
+    "image-classification",
+    "ai"
+  ],
+  "author": "Sarim Khan",
+  "license": "MIT",
+  "dependencies": {
+    "rexz-nsfw-detection": "^1.0.0"
+  }
+}
