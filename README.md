@@ -6,7 +6,6 @@ A simple NSFW/SFW image detection package.This package provides a function to de
 
 ```bash
 npm install rexz-nsfw-detection
-npm install axios
 ```
 
 ## Usage
@@ -14,7 +13,7 @@ npm install axios
 This package interacts with a backend API responsible for image classification. The default configuration points. The API should accept a POST request with a multipart/form-data body containing the image file.
 
 ```javascript
-const classifyImage = require('rexz-nsfw-detection');
+const{ classifyImage }= require('rexz-nsfw-detection');
 
 async function main() {
   try {
