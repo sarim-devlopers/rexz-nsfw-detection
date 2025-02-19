@@ -1,7 +1,7 @@
 {
   "name": "rexz-nsfw-detection",
   "version": "1.0.4",
-  "description": "A simple NSFW/SFW image detection package using backend APIs",
+  "description": "A simple NSFW/SFW image detection package using backend APIs and file scanning.",
   "main": "index.js",
   "keywords": [
     "nsfw",
@@ -10,7 +10,16 @@
   ],
   "author": "Sarim Khan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarim-devlopers/rexz-nsfw-detection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarim-devlopers/rexz-nsfw-detection/issues"
+  },
+  "homepage": "https://github.com/sarim-devlopers/rexz-nsfw-detection#readme",
   "dependencies": {
-    "rexz-nsfw-detection": "^1.0.0"
+    "axios": "^1.0.0",
+    "form-data": "^4.0.0"
   }
 }
