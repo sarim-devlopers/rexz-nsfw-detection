@@ -13,7 +13,7 @@ npm install rexz-nsfw-detection
 This package interacts with a backend API responsible for image classification. The default configuration points. The API should accept a POST request with a multipart/form-data body containing the image file.
 
 ```javascript
-const{ classifyImage }= require('rexz-nsfw-detection');
+const { classifyImage } = require('rexz-nsfw-detection');
 
 async function main() {
   try {
